@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="ui">
+    <file>AS.png</file>
+    <file>FR.png</file>
+    <file>about.png</file>
+    <file>showatt_icon.png</file>
+    <file>main_bg.jpeg</file>
+    <file>attendance_icon.png</file>
+    <file>reg_icon.png</file>
+    <file>cooltext429693349130361.png</file>
+  </qresource>
+</RCC>

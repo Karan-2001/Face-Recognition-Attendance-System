@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mainscreen</class>
+ <widget class="QMainWindow" name="Mainscreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background: url(:/ui/main_bg.jpeg)  no-repeat center center fixed;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="registeration_icon">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>300</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/ui/reg_icon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="attendance_icon">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>300</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/ui/attendance_icon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="show_att_icon">
+    <property name="geometry">
+     <rect>
+      <x>693</x>
+      <y>300</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/ui/showatt_icon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="date">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>170</y>
+      <width>350</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 0);
+font: 70 24pt &quot;Tahoma&quot;;</string>
+    </property>
+    <property name="text">
+     <string>23 February 2023</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Time">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>230</y>
+      <width>350</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 0);
+font: 70 24pt &quot;Tahoma&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Thu 23:11:19 PM</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Register">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>520</y>
+      <width>200</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-color: rgb(170, 255, 255);
+	font: 75 18pt &quot;Times New Roman&quot;;
+	border-radius: 12px;
+}
+QPushButton:hover
+{font: 75 20pt &quot;Times New Roman&quot;;
+	background-color: rgb(75, 225, 225);
+}
+QPushButton:pressed 
+{
+	background-color: rgb(52, 143, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Take_attendance">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>520</y>
+      <width>200</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-color: rgb(170, 255, 255);
+	font: 75 18pt &quot;Times New Roman&quot;;
+	border-radius: 12px;
+}
+QPushButton:hover
+{font: 75 20pt &quot;Times New Roman&quot;;
+	background-color: rgb(75, 225, 225);
+}
+QPushButton:pressed 
+{
+	background-color: rgb(52, 143, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Take Attendance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="view_attendance">
+    <property name="geometry">
+     <rect>
+      <x>693</x>
+      <y>520</y>
+      <width>200</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-color: rgb(170, 255, 255);
+	font: 75 18pt &quot;Times New Roman&quot;;
+	border-radius: 12px;
+}
+QPushButton:hover
+{font: 75 20pt &quot;Times New Roman&quot;;
+	background-color: rgb(75, 225, 225);
+}
+QPushButton:pressed 
+{
+	background-color: rgb(52, 143, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>View Attendance</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Title_fr">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>700</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/ui/FR.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Title_as">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>800</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/ui/AS.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="about">
+    <property name="geometry">
+     <rect>
+      <x>935</x>
+      <y>540</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/ui/about.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="mainscreen.qrc"/>
+ </resources>
+ <connections/>
+</ui>

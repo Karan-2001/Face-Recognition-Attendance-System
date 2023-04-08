@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="ui">
+    <file>register your face (2).png</file>
+    <file>attendance.png</file>
+    <file>register your face.png</file>
+    <file>main_bg.jpeg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>splashscreen</class>
+ <widget class="QMainWindow" name="splashscreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="splashmain">
+   <widget class="QLabel" name="BG">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>850</width>
+      <height>550</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+background-color: rgb(4, 11, 50);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Title">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>850</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/source/cooltext429693349130361.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif">
+    <property name="geometry">
+     <rect>
+      <x>213</x>
+      <y>160</y>
+      <width>425</width>
+      <height>310</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/source/ezgif.com-gif-maker.gif);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>213</x>
+      <y>490</y>
+      <width>400</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QProgressBar{
+background-color: rgb(150, 255, 255);
+color: rgb(0,0,0);
+border-style: none;
+border-radius: 6px;
+text-align : center;
+}
+QProgressBar::chunk{
+border-radius: 6px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.545, x2:1, y2:0.557, stop:0 rgba(0, 0, 255, 255), stop:1 rgba(85, 255, 255, 255));
+	
+}</string>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Splashscreen.qrc"/>
+ </resources>
+ <connections/>
+</ui>
